@@ -2,7 +2,7 @@ version: "3.8"
 services:
   server:
     container_name: pr1_server
-    build: ./test
+    build: test
     volumes:
       - ./test:/var/www/html
     ports:
